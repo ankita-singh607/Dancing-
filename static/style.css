@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+#logo{
+    margin-right: 80px;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#logo img{
+    height: 50px;
+    width: 100px;
+
+}
+
+/*body{
+ 
+   /*
+}*/
+#navbar{
+    font-family: 'Shizuru', cursive;
+   font-size: 2rem;
+   background-color: rgb(171, 209, 4);
+    padding: 15px 7px;
+}
+
+#navbar ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+#introsection{
+    background: center/cover no-repeat url("/static/bg1.jpg");
+    color: rgb(12, 236, 206);
+    font-family: 'Redressed', cursive;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   font-size: 2.8rem;
+}
+
+
+#mission{
+  
+    margin: auto;
+    width: 100%;
+    height: 400px; 
+  background-color: rgba(231, 5, 144, 0.719);
+  display: block;
+   
+}
+#mission h2{
+    color: rgb(15, 218, 208);
+    font-family: 'Redressed', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+    .card{
+        text-align: center;
+        border: 2px solid rgb(224, 15, 15);
+        border-radius: 10px;
+        width: 30%;
+        margin: 100px 30px 70px 20px;
+        height: 150px;
+        display: inline-block;
+    }
+    .card h3{
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         color: blue;
+    }
+    .card-box{
+       display: flex;
+       align-items: flex-start;
+       justify-content: space-between;
+    }
+    .card-img img{
+        height: 100px;
+        width: 150px;
+        /* margin-left: 25px; */
+        margin: 10px 20px 10px 20px;
+    }
+    .cont{
+       margin: 10px 40px ;
+}
+   
+#spon{
+    background-color: brown;
+    height: 400px;
+    padding: 30px;
+}
+
+#spon h2{
+    color: rgb(147, 218, 15);
+    font-family: 'Redressed', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#sp{
+    height: 200px;
+}
+#sp img{
+    height: 200px;
+    width: 300px;
+    margin: 80px 30px 40px 100px;
+}
+
+#foot{
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  /*  margin: 10px auto 10px auto;*/
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(16 14 14 / 85%);
+}
